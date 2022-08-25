@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 300px;
+}
+
+.signal{
+    animation: strength 2400ms infinite normal;
+}
+
+#Vector_2{
+    animation-delay: 800ms;
+}
+
+#Vector_3{
+    animation-delay: 1600ms;
+}
+
+#Vector_4{
+    animation-delay: 2400ms;
+}
+
+@keyframes strength{
+    from{
+        fill: #9CCC50;
+    }
+    to{
+        fill: #215086;
+    }
+}
+
+.waves{
+    animation: motion 2400ms linear infinite;
+}
+
+@keyframes motion{
+    from{
+    transform: translateX(0%);
+    }
+    to{
+    transform: translateX(25%);     
+    }
+}
